@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.height-sec{
+    height: 50vh;
+}
+.bolder {
+    font-weight: bolder;
+}
+
+nav {
+    background-color: black;
+    height: 100px;
+
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 0.3s;
+
+}
+.txt-center{
+    text-align: center;
+}
+#intro {
+    background: url('bg.png') no-repeat fixed center black;
+    background-size: 600px;
+    background-position: 110% 30%;
+    height: 70%;
+}
+
+.nav-list {
+    margin-left: 50px;
+    padding: 0;
+}
+
+.menu-item{
+    display: inline;
+    margin: 0 auto;
+
+    position: relative;
+    top: 35px;
+}
+/* a{
+    border-radius: 10px;
+} */
+#logo {
+    float: right;
+    height: 40px;
+    position: relative;
+    margin-right: 50px;
+}
+
+section {
+    margin-top: 0px;
+    height: auto;
+    padding: 60px;
+    border-top: 1px solid white;
+
+}
+.pd-0{
+    padding: 0;
+   
+}
+.underline-black {
+    border-bottom: 1px solid black;
+    width: 51%;
+}
+
+.underline-white {
+    border-bottom: 1px solid white;
+    width: 51%;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-gray {
+    background-color: rgb(233, 233, 233);
+}
+
+.title {
+    display: inline;
+    margin-top: 5px;
+    font-size: 40px;
+    color: white;
+}
+
+.colorful-animate {
+    animation: change-color 7s infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes change-color {
+    0% {
+        color: rgb(255, 63, 63);
+    }
+
+    25% {
+        color: rgb(255, 243, 75);
+    }
+
+    50% {
+        color: aqua;
+    }
+
+    75% {
+        color: rgb(255, 79, 217);
+    }
+
+    100% {
+        color: rgb(255, 118, 21);
+    }
+
+}
+
+/* #title:hover {
+    font-size: 50px;
+} */
+
+.menu-item a:hover {
+    /* color: cyan;
+    font-size: 23px; */
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 15px;
+}
+#intro p{
+    width: 70%;
+}
+.txt-white {
+    color: white;
+}
+
+.txt-black {
+    color: black;
+}
+
+hr.solid {
+    width: 51%;
+}
+
+.content {
+    margin: 30px;
+    height: auto;
+}
+
+@media screen and (max-width: 740px) {
+    #logo {
+        display: none;
+    }
+}
+
+#welcome {
+    color: white;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+#about{
+    display: table;
+    justify-content: center;
+    margin: 0;
+}
+#about .content{
+    margin: 0;
+    width: 70%;
+    position: relative;
+
+}
+#about h1{
+    font-size: 40px;
+    background-color: black;
+    color: rgb(233, 233, 233);
+    padding: 30px;
+    /* transition-duration: 4s; */
+    border: 2px solid black;    
+    position: absolute;
+    justify-content: center;
+
+}
+
+.side-content{
+    display: table-cell;
+    height: 100%;
+    background-color: black;
+    width: 150px;
+}
+
+/* .btn-bg-change:hover{
+    animation: slide-bg 0.5s forwards;
+} */
+
+/* @keyframes slide-bg {
+    from{background-color: black;}
+    to{background-color: rgb(233, 233, 233);;
+    color:black;
+} */
+    
